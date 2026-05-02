@@ -710,6 +710,7 @@ tbody tr.qualify-line td {
     transition: color 0.2s, transform 0.2s;
     display: flex;
     align-items: center;
+    text-decoration: none;
 }
 
 .footer-links a:hover {

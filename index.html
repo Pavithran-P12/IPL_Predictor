@@ -89,10 +89,8 @@
                 <span class="simulator-info">Selected team wins all their matches; others randomized</span>
             </div>
 
-            <div class="matches-grid" id="matchesGrid"></div>
-
             <div class="predicted-section">
-                <h3>Predicted Final Standings</h3>
+                <h3>Predicted Final Standings <span class="info-tooltip" title="NRR calculation for simulated matches isn't available. Rankings are based on current NRR from recent standings.">ℹ️</span></h3>
                 <div class="table-card">
                     <div class="table-scroll">
                         <table>
@@ -104,7 +102,6 @@
                                     <th>L</th>
                                     <th>NR</th>
                                     <th>PTS</th>
-                                    <th>NRR</th>
                                 </tr>
                             </thead>
                             <tbody id="predictedTableBody"></tbody>
@@ -112,6 +109,10 @@
                     </div>
                 </div>
             </div>
+
+            <p class="matches-hint">You can also edit match by match — click on individual matches to see what changes they bring to the table</p>
+
+            <div class="matches-grid" id="matchesGrid"></div>
         </section>
     </div>
 

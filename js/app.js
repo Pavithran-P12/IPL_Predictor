@@ -325,7 +325,6 @@ class IPLApp {
                     <td>${row.l}</td>
                     <td>${row.nr}</td>
                     <td><span class="pts-value">${row.pts}</span></td>
-                    <td class="${row.nrr >= 0 ? 'nrr-positive' : 'nrr-negative'}">${row.nrr >= 0 ? '+' : ''}${row.nrr.toFixed(3)}</td>
                 </tr>`;
         }).join('');
 

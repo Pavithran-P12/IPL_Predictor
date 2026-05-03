@@ -696,6 +696,21 @@ tbody tr.qualify-line td {
     border-radius: 2px;
 }
 
+.info-tooltip {
+    cursor: help;
+    font-size: 0.85rem;
+    position: relative;
+}
+
+.matches-hint {
+    text-align: center;
+    font-size: 0.78rem;
+    color: var(--text-muted);
+    font-style: italic;
+    margin-top: 16px;
+    margin-bottom: 20px;
+}
+
 /* ===== Footer ===== */
 .footer {
     text-align: center;

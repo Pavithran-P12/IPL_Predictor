@@ -65,7 +65,7 @@ body {
 .header-logo {
     width: 34px;
     height: 34px;
-    background: var(--accent);
+    background: linear-gradient(135deg, #f7a400, #f9cd05);
     border-radius: var(--radius-sm);
     display: flex;
     align-items: center;

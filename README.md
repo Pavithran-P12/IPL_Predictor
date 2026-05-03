@@ -6,10 +6,12 @@ A lightweight, modern web app that displays the live IPL 2026 points table with 
 
 - **Points Table** – Full standings with Points, NRR, and last-5-match form indicators (W/L)
 - **Playoff Predictor** – Pick winners for all remaining matches and see the predicted final standings update in real time
-- **Team Simulator** – One-click simulation: select a team and auto-predict all their remaining matches as wins
+- **Team Simulator** – Colored team badges to simulate all remaining matches as wins for a selected team
 - **Smart Notifications** – Popup toasts show which teams moved up or down after each prediction
+- **Live View Counter** – Real-time page view tracking powered by Firebase Firestore
+- **Like Button** – Heart-shaped like button with burst animation, 1 like per session, stored in Firestore
 - **Responsive Design** – Works on desktop, tablet, and mobile
-- **Zero Dependencies** – Pure HTML, CSS, and vanilla JavaScript; no build step required
+- **No Build Step** – Pure HTML, CSS, and vanilla JavaScript; Firebase loaded via CDN
 
 ## Screenshot
 
@@ -19,7 +21,7 @@ A lightweight, modern web app that displays the live IPL 2026 points table with 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/<your-username>/ipl-playoff-predictor.git
+   git clone https://github.com/Pavithran-P12/ipl-playoff-predictor.git
    ```
 2. Open `index.html` in any modern browser – that's it!
 
@@ -33,10 +35,17 @@ No server, no bundler, no package manager needed.
 │   └── styles.css    # All styling (light theme, responsive)
 ├── js/
 │   ├── data.js       # IPL 2026 standings, form, and fixture data
-│   └── app.js        # App controller (rendering, prediction logic)
+│   ├── app.js        # App controller (rendering, prediction logic)
+│   └── views.js      # Firebase view counter & like button logic
 ├── README.md
 └── LICENSE
 ```
+
+## Tech
+
+- Vanilla HTML/CSS/JS (no frameworks)
+- [Google Fonts – Inter](https://fonts.google.com/specimen/Inter)
+- [Firebase Firestore](https://firebase.google.com/docs/firestore) (compat SDK via CDN) for shared view & like counters
 
 ## Data Source
 

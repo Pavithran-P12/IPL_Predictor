@@ -15,11 +15,11 @@ const TeamMeta = {
 
 // Current standings as of May 3, 2026
 const Standings = [
-    { team: 'PBKS', p: 8, w: 6, l: 1, nr: 1, pts: 13, nrr: 1.043 },
+    { team: 'PBKS', p: 9, w: 6, l: 2, nr: 1, pts: 13, nrr: 0.855 },
     { team: 'RCB', p: 9, w: 6, l: 3, nr: 0, pts: 12, nrr: 1.420 },
     { team: 'SRH', p: 10, w: 6, l: 4, nr: 0, pts: 12, nrr: 0.644 },
     { team: 'RR', p: 10, w: 6, l: 4, nr: 0, pts: 12, nrr: 0.510 },
-    { team: 'GT', p: 9, w: 5, l: 4, nr: 0, pts: 10, nrr: -0.192 },
+    { team: 'GT', p: 10, w: 6, l: 4, nr: 0, pts: 12, nrr: -0.147 },
     { team: 'CSK', p: 9, w: 4, l: 5, nr: 0, pts: 8, nrr: 0.005 },
     { team: 'DC', p: 9, w: 4, l: 5, nr: 0, pts: 8, nrr: -0.895 },
     { team: 'KKR', p: 9, w: 3, l: 5, nr: 1, pts: 7, nrr: -0.539 },
@@ -29,11 +29,11 @@ const Standings = [
 
 // Recent form (last 5 matches, most recent first)
 const RecentForm = {
-    PBKS: ['L', 'W', 'W', 'W', 'W'],
+    PBKS: ['L', 'L', 'W', 'W', 'W'],
     RCB: ['W', 'W', 'W', 'W', 'L'],
     SRH: ['L', 'W', 'W', 'W', 'W'],
     RR: ['L', 'W', 'L', 'W', 'L'],
-    GT: ['W', 'W', 'L', 'W', 'W'],
+    GT: ['W', 'W', 'W', 'L', 'W'],
     DC: ['W', 'L', 'L', 'W', 'L'],
     CSK: ['W', 'L', 'W', 'L', 'W'],
     KKR: ['W', 'W', 'W', 'L', 'L'],
@@ -41,9 +41,8 @@ const RecentForm = {
     LSG: ['L', 'L', 'L', 'L', 'L']
 };
 
-// Remaining matches (Match 45 onwards)
+// Remaining matches (Match 47 onwards)
 const RemainingMatches = [
-    { id: 46, home: 'GT', away: 'PBKS', date: 'May 3', venue: 'Ahmedabad' },
     { id: 47, home: 'MI', away: 'LSG', date: 'May 4', venue: 'Mumbai' },
     { id: 48, home: 'DC', away: 'CSK', date: 'May 5', venue: 'Delhi' },
     { id: 49, home: 'SRH', away: 'PBKS', date: 'May 6', venue: 'Hyderabad' },

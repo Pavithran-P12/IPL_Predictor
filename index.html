@@ -86,11 +86,11 @@
             <div class="simulator-bar">
                 <label>Simulate for:</label>
                 <div class="team-picker" id="teamSimulator"></div>
-                <span class="simulator-info">Selected team wins all their matches; others randomized</span>
+                <span class="simulator-info">Selected team wins all their matches; others randomized.<br>You can also edit match by match below.</span>
             </div>
 
             <div class="predicted-section">
-                <h3>Predicted Final Standings <span class="info-tooltip" title="NRR calculation for simulated matches isn't available. Rankings are based on current NRR from recent standings.">ℹ️</span></h3>
+                <h3>Predicted Final Standings <span class="info-tooltip" onclick="this.classList.toggle('show')"><span class="info-icon">ℹ️</span><span class="info-text">NRR calculation for simulated matches isn't available. Rankings are based on current NRR from recent standings.</span></span></h3>
                 <div class="table-card">
                     <div class="table-scroll">
                         <table>

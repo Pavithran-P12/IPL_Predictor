@@ -23,8 +23,8 @@ const Standings = [
     { team: 'CSK', p: 9, w: 4, l: 5, nr: 0, pts: 8, nrr: 0.005 },
     { team: 'DC', p: 9, w: 4, l: 5, nr: 0, pts: 8, nrr: -0.895 },
     { team: 'KKR', p: 9, w: 3, l: 5, nr: 1, pts: 7, nrr: -0.539 },
-    { team: 'MI', p: 9, w: 2, l: 7, nr: 0, pts: 4, nrr: -0.803 },
-    { team: 'LSG', p: 8, w: 2, l: 6, nr: 0, pts: 4, nrr: -1.106 }
+    { team: 'MI', p: 10, w: 3, l: 7, nr: 0, pts: 6, nrr: -0.649 },
+    { team: 'LSG', p: 9, w: 2, l: 7, nr: 0, pts: 4, nrr: -1.706 }
 ];
 
 // Recent form (last 5 matches, most recent first)
@@ -37,13 +37,12 @@ const RecentForm = {
     DC: ['W', 'L', 'L', 'W', 'L'],
     CSK: ['W', 'L', 'W', 'L', 'W'],
     KKR: ['W', 'W', 'W', 'L', 'L'],
-    MI: ['L', 'L', 'L', 'W', 'L'],
+    MI: ['W', 'L', 'L', 'L', 'W'],
     LSG: ['L', 'L', 'L', 'L', 'L']
 };
 
 // Remaining matches (Match 47 onwards)
 const RemainingMatches = [
-    { id: 47, home: 'MI', away: 'LSG', date: 'May 4', venue: 'Mumbai' },
     { id: 48, home: 'DC', away: 'CSK', date: 'May 5', venue: 'Delhi' },
     { id: 49, home: 'SRH', away: 'PBKS', date: 'May 6', venue: 'Hyderabad' },
     { id: 50, home: 'LSG', away: 'RCB', date: 'May 7', venue: 'Lucknow' },

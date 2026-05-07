@@ -13,24 +13,24 @@ const TeamMeta = {
     LSG: { name: 'Lucknow Super Giants', short: 'LSG', color: '#004f91', gradient: 'linear-gradient(135deg, #004f91, #a72056)' }
 };
 
-// Current standings as of May 6, 2026
+// Current standings as of May 7, 2026
 const Standings = [
     { team: 'SRH', p: 11, w: 7, l: 4, nr: 0, pts: 14, nrr: 0.737 },
     { team: 'PBKS', p: 10, w: 6, l: 3, nr: 1, pts: 13, nrr: 0.571 },
-    { team: 'RCB', p: 9, w: 6, l: 3, nr: 0, pts: 12, nrr: 1.420 },
+    { team: 'RCB', p: 10, w: 6, l: 4, nr: 0, pts: 12, nrr: 1.234 },
     { team: 'RR', p: 10, w: 6, l: 4, nr: 0, pts: 12, nrr: 0.510 },
     { team: 'GT', p: 10, w: 6, l: 4, nr: 0, pts: 12, nrr: -0.147 },
     { team: 'CSK', p: 10, w: 5, l: 5, nr: 0, pts: 10, nrr: 0.151 },
     { team: 'DC', p: 10, w: 4, l: 6, nr: 0, pts: 8, nrr: -0.949 },
     { team: 'KKR', p: 9, w: 3, l: 5, nr: 1, pts: 7, nrr: -0.539 },
     { team: 'MI', p: 10, w: 3, l: 7, nr: 0, pts: 6, nrr: -0.649 },
-    { team: 'LSG', p: 9, w: 2, l: 7, nr: 0, pts: 4, nrr: -1.706 }
+    { team: 'LSG', p: 10, w: 3, l: 7, nr: 0, pts: 6, nrr: -0.934 }
 ];
 
 // Recent form (last 5 matches, most recent first)
 const RecentForm = {
     PBKS: ['L', 'L', 'L', 'W', 'W'],
-    RCB: ['W', 'W', 'W', 'W', 'L'],
+    RCB: ['L', 'W', 'W', 'W', 'W'],
     SRH: ['W', 'L', 'W', 'W', 'W'],
     RR: ['L', 'W', 'L', 'W', 'L'],
     GT: ['W', 'W', 'W', 'L', 'W'],
@@ -38,12 +38,11 @@ const RecentForm = {
     CSK: ['W', 'W', 'L', 'W', 'L'],
     KKR: ['W', 'W', 'W', 'L', 'L'],
     MI: ['W', 'L', 'L', 'L', 'W'],
-    LSG: ['L', 'L', 'L', 'L', 'L']
+    LSG: ['W', 'L', 'L', 'L', 'L']
 };
 
 // Remaining matches (Match 47 onwards)
 const RemainingMatches = [
-    { id: 50, home: 'LSG', away: 'RCB', date: 'May 7', venue: 'Lucknow' },
     { id: 51, home: 'DC', away: 'KKR', date: 'May 8', venue: 'Delhi' },
     { id: 52, home: 'RR', away: 'GT', date: 'May 9', venue: 'Jaipur' },
     { id: 53, home: 'CSK', away: 'LSG', date: 'May 10', venue: 'Chennai' },

@@ -15,16 +15,16 @@ const TeamMeta = {
 
 // Current standings as of May 20, 2026 (after match 65)
 const Standings = [
-    { team: 'RCB', p: 13, w: 9, l: 4, nr: 0, pts: 18, nrr: 1.103 },
-    { team: 'GT', p: 13, w: 8, l: 5, nr: 0, pts: 16, nrr: 0.551 },
-    { team: 'SRH', p: 13, w: 8, l: 5, nr: 0, pts: 16, nrr: 0.331 },
-    { team: 'RR', p: 13, w: 7, l: 6, nr: 0, pts: 14, nrr: 0.082 },
-    { team: 'PBKS', p: 13, w: 6, l: 6, nr: 1, pts: 13, nrr: 0.428 },
-    { team: 'KKR', p: 13, w: 6, l: 6, nr: 1, pts: 13, nrr: -0.169 },
-    { team: 'CSK', p: 13, w: 6, l: 7, nr: 0, pts: 12, nrr: 0.185 },
-    { team: 'DC', p: 13, w: 6, l: 7, nr: 0, pts: 12, nrr: -0.993 },
-    { team: 'MI', p: 13, w: 4, l: 9, nr: 0, pts: 8, nrr: -0.585 },
-    { team: 'LSG', p: 13, w: 4, l: 9, nr: 0, pts: 8, nrr: -0.907 }
+    { team: 'RCB', p: 13, w: 9, l: 4, nr: 0, pts: 18, nrr: 1.065 },
+    { team: 'GT', p: 13, w: 8, l: 5, nr: 0, pts: 16, nrr: 0.400 },
+    { team: 'SRH', p: 13, w: 8, l: 5, nr: 0, pts: 16, nrr: 0.350 },
+    { team: 'RR', p: 13, w: 7, l: 6, nr: 0, pts: 14, nrr: 0.083 },
+    { team: 'PBKS', p: 13, w: 6, l: 6, nr: 1, pts: 13, nrr: 0.227 },
+    { team: 'KKR', p: 13, w: 6, l: 6, nr: 1, pts: 13, nrr: 0.011 },
+    { team: 'CSK', p: 13, w: 6, l: 7, nr: 0, pts: 12, nrr: -0.016 },
+    { team: 'DC', p: 13, w: 6, l: 7, nr: 0, pts: 12, nrr: -0.871 },
+    { team: 'MI', p: 13, w: 4, l: 9, nr: 0, pts: 8, nrr: -0.510 },
+    { team: 'LSG', p: 13, w: 4, l: 9, nr: 0, pts: 8, nrr: -0.702 }
 ];
 
 // Recent form (last 5 matches, most recent first)
